@@ -1,0 +1,71 @@
+.container {
+    width: 330px;
+    height: 114px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 24px;
+    box-sizing: border-box;
+
+}
+
+.nav {
+    width: 282px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLeft {
+    color: #DB2D2D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.score {
+    width: 282px;
+    height: 51px;
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.leftTeam {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.leftFlag {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.rightTeam {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.rightFlag {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.scoreNumber {
+    box-sizing: border-box;
+    display: flex;
+    padding: 8px 15px;
+    align-items: center;
+}

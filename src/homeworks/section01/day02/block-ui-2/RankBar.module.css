@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+.icon {
+    color: #ffffff;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.title {
+    padding: 10px;
+    width: 100px;
+    color: rgb(124, 124, 124);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.rank {
+    padding: 0 px;
+
+    background-color: rgb(61, 132, 255);
+    /* width: 300px; */
+    height: 10px;
+    border-radius: 2px 0 0 2px;
+}
+
+.rankContainer {
+    background-color: rgb(235, 235, 235);
+    width: 300px;
+}

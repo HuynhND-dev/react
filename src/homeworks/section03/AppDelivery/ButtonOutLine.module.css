@@ -1,0 +1,41 @@
+.container {
+    width: max-content;
+    display: inline-flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--bbbdc-1, #BBBDC1);
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.container:hover {
+    border: 1px solid #FF6C44;
+    background: #FF6C44;
+    color: #FFF;
+}
+
+.container.active {
+    background: #FF6C44;
+    width: max-content;
+    display: inline-flex;
+    padding: 8px 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #FF6C44;
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    color: #FFF;
+}

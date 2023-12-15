@@ -1,0 +1,37 @@
+.container {
+    padding: 10px;
+}
+
+.cover {
+    width: 300px;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-content: space-between;
+}
+
+.icon {
+    /* background-color: aquamarine; */
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.title {
+    /* background-color: aquamarine; */
+    width: 150px;
+    margin: 30px 20px;
+    color: #ffffff;
+}
+
+.title p {
+    margin: 5px;
+}
+
+.title h2 {
+    margin: 5px;
+    color: #ffffff;
+}

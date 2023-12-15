@@ -1,0 +1,52 @@
+/* CSS cho container chính của bài tập */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS cho câu hỏi */
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* CSS cho danh sách các đáp án */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+/* CSS cho kết quả */
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* CSS cho đáp án đúng */
+.correct-answer {
+  color: green;
+}
+
+/* CSS cho đáp án sai */
+.wrong-answer {
+  color: red;
+}

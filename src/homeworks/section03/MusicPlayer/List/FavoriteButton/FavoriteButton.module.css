@@ -1,0 +1,7 @@
+.container {
+    color: #DCDEE9;
+}
+
+.container.like {
+    color: red;
+}

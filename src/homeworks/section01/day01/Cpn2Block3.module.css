@@ -1,0 +1,88 @@
+.container {
+    width: 330px;
+    /* height: 83px; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.img img {
+    width: 56px;
+    height: 56px;
+    object-fit: fill;
+    border-radius: 100px;
+}
+
+.content {
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    /* background-color: aqua; */
+    width: 216px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 216px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.titleText {
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.iconTitle {
+    position: absolute;
+    right: 24px;
+    right: 0;
+
+}
+
+.subTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subTitleText {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    /* 164.286% */
+    letter-spacing: 0.1px;
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.subTitleLeftIcon {
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.subTitleRightIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

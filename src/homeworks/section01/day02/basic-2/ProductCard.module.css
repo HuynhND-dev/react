@@ -1,0 +1,35 @@
+.container {
+    width: 250px;
+    border: solid #cdcdcd 0.5px;
+    padding: 20px;
+    background-color: #ffffff;
+    height: fit-content;
+}
+
+
+.imgContainer {
+    width: 100%;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+.info {
+    padding: 5px;
+    font-family: roboto;
+    font-size: 15px;
+    color: #656464;
+}
+
+.productName {
+    font-size: 15px;
+    color: rgb(93, 144, 255);
+    font-family: roboto;
+    padding: 5px 0;
+}
+
+.rate {
+    display: flex;
+    /* align-items: center; */
+}

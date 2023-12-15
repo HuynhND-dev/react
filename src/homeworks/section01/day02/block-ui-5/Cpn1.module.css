@@ -1,0 +1,21 @@
+.container {
+    width: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    color: rgb(96, 102, 94);
+}
+
+.categogy {
+    display: flex;
+    gap: 10px
+}
+
+.title {
+    padding: auto;
+}
+
+.icon {
+    margin: 0 10px;
+}

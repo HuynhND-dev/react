@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  align-self: stretch;
+  background-color: azure;
+}
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.containerBody {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+.textName {
+  color: var(--black, #000);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.textBlur {
+  align-self: stretch;
+  color: var(--muted-color, #78858f);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 25.5px; 182.143% */
+  /* letter-spacing: 0.5px; */
+}
+.Icon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}

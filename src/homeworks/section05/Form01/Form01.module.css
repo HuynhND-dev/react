@@ -1,0 +1,213 @@
+.container {
+    background-color: #1a1617;
+    width: 300px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    background-image: url(/public/images/avatars/bray.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+.btnBack {
+    width: fit-content;
+    /* background-color: rgb(253, 253, 253); */
+    color: #fff;
+    cursor: pointer;
+}
+
+.title {
+    margin: 100px 20px 0 20px;
+    color: #fff;
+}
+
+
+.content {
+    background-color: rgba(190, 190, 190, 0.1);
+    backdrop-filter: blur(2px);
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.account {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+
+
+.account .avatar {
+    width: 50px;
+}
+
+.account .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.account .email {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+.form {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.emailInfo {
+    font-weight: 500;
+}
+
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.formControl {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    border: none;
+    position: relative;
+}
+
+.formControl input {
+    position: absolute;
+}
+
+
+
+.formControl input:focus~label,
+input:not(:placeholder-shown)~.labelInline {
+    top: 0px;
+    font-size: 10px;
+    opacity: 1;
+    /* margin-left: 45px; */
+    /* transition: all 0.2s ease-out; */
+    /* -webkit-transform: rotate(720deg); */
+    zoom: 1;
+}
+
+.formControl label {
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    color: #000;
+    top: 10px;
+    left: 10px;
+    color: #666666;
+    transition: 0.2s ease all;
+}
+
+
+.formControl span {
+    position: absolute;
+    z-index: 1;
+    color: #000;
+    right: 5px;
+    top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* .input:focus {
+    border-color: #00c38e;
+} */
+
+
+
+
+.formInput input[type='email'] {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+
+.formInput input[type='text'] {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+}
+
+.formInput input[type='password'] {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 30px 10px 10px;
+    border: none;
+    font-size: 30px;
+    caret: initial;
+    caret-color: #00c38e;
+}
+
+.formInput button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00c38e;
+}
+
+.loginWith {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000;
+}
+
+.formFooter {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.formFooter a {
+    text-decoration: none;
+    color: #00c38e;
+    font-weight: bold;
+}
+
+/* .policy {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.policy a {
+    text-decoration: none;
+    color: #00c38e;
+    font-weight: bold;
+} */

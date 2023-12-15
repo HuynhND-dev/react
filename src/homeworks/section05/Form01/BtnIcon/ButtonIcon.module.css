@@ -1,0 +1,26 @@
+.container {
+    background-color: #e5f9f2;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: bold;
+}

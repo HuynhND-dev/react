@@ -1,0 +1,75 @@
+.container {
+    width: 95px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 13px 28px;
+    color: #000000;
+    border-radius: 8px;
+    background: #FFF;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    right: 28px;
+}
+
+.secondIcon {
+    position: absolute;
+    left: 28px;
+    transition: transform 0, 5s;
+}
+
+.mainIcon {
+    position: absolute;
+    left: 28px;
+}
+
+[data-like=false] .mainIcon {
+    transform: scale(0);
+    color: #FFF;
+}
+
+[data-like=false] .secondIcon {
+    color: #000;
+    transition: color 0.5s;
+}
+
+[data-like=false]:hover .secondIcon {
+    color: #D721BA;
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+
+[data-like=false] .text {
+    transition: color 0.5s;
+}
+
+[data-like=false]:hover .text {
+    color: #D721BA;
+}
+
+[data-like=true] .mainIcon {
+    transition: transform 0.5s;
+    transform: scale(1);
+    color: #FFF;
+    z-index: 1;
+}
+
+[data-like=true] .secondIcon {
+    color: #D721BA;
+    transform: scale(12);
+    transition: transform 0.7s;
+}
+
+
+[data-like=true] .text {
+    color: #fff;
+}

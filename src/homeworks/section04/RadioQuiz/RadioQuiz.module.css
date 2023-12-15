@@ -1,0 +1,13 @@
+.container {}
+
+.formControl {
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.formControl:hover {
+    background-color: aqua;
+}

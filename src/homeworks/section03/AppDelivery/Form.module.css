@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 375px;
+    height: max-content;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 24px;
+    text-align: center;
+    height: 812px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.formContainer button {
+    margin: auto;
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--ff-6-c-44, #FF6C44);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.formContainer input {
+    background-color: #F5F5F8;
+    height: 56px;
+    border-radius: 8px;
+    border: solid #F5F5F8 1px;
+    font-size: 18px;
+}
+
+.formContainer input:focus {
+    border: solid blue 1px;
+    font-size: 18px;
+}
+
+.formContainer a {
+    color: #FF6C44;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    text-align: left;
+}
+
+.signUpWith {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.signUpWith button {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button.facebook {
+    background-color: #0064C0;
+}
+
+button.google {
+    background-color: #F5F5F8;
+    color: black;
+}

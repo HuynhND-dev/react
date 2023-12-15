@@ -1,0 +1,23 @@
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: solid rgb(199, 199, 199) 0.5px;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+.category {
+    padding: 20px 0;
+    color: #adadad;
+}
+
+h2 {
+    color: #676767;
+}
+
+.date {
+    color: #adadad;
+}

@@ -1,0 +1,39 @@
+.container {
+    width: 330px;
+    height: 51px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 16px;
+}
+
+.textSearch {
+    color: #A2A9AD;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.5px;
+}
+
+.iconLeft {
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.iconRight {
+    cursor: pointer;
+    display: flex;
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 14px;
+}

@@ -1,0 +1,13 @@
+.rank {
+    padding: 0 px;
+
+    background-color: rgb(61, 132, 255);
+    /* width: 300px; */
+    height: 10px;
+    border-radius: 2px 0 0 2px;
+}
+
+.rankContainer {
+    background-color: rgb(235, 235, 235);
+    width: 300px;
+}

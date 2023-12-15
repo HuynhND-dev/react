@@ -1,0 +1,45 @@
+.container {
+    width: 500px;
+}
+
+.buttonTab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F5F5F5;
+    color: #666666;
+    font-family: roboto;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+
+.btn:hover {
+    background-color: #d6d4d4
+}
+
+[data-active=true] {
+    background-color: #47B475;
+    color: #ffffff;
+}
+
+[data-active=true]:hover {
+    background-color: #47B475;
+    color: #ffffff;
+}
+
+.content p {
+    width: 100%;
+    text-align: center;
+}

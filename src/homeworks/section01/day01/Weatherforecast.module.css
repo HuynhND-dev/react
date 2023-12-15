@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+}
+.containerBody {
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.avatar {
+  color: yellow;
+  width: 42px;
+  height: 43px;
+}
+.boderName {
+  display: flex;
+  width: 106px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.boderPoison {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.textName {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 95.238% */
+  letter-spacing: 0.3px;
+}
+.textItem {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 153.846% */
+  letter-spacing: 0.3px;
+}
+.textPoison {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 50% */
+  letter-spacing: 0.3px;
+}

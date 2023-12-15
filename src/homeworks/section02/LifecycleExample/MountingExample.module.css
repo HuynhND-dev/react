@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background-color: black;
+}

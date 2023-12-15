@@ -1,0 +1,39 @@
+.container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 30PX;
+    border: solid 1px rgb(189, 189, 189);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.info div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    color: #848B9A;
+}

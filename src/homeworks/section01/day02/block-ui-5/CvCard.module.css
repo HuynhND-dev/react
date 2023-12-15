@@ -1,0 +1,48 @@
+.container {
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    border: rgb(182, 182, 182) solid 0.5px;
+    box-shadow: 5px 5px 5px rgb(203, 203, 203);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #797278;
+}
+
+.title p {
+    margin: 0;
+}
+
+.info {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.contact {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 20px;
+}
